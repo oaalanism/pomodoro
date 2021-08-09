@@ -12,6 +12,7 @@
                         {{status}}  
                     </div>
                 </div>
+                <audio src="../audio/notification.wav"></audio>
             </div>
         </div>
     </div>
@@ -75,6 +76,8 @@
                 setInterval( () =>{
 
                     if(this.seconds == 0 && this.minutes == 0){
+                        document.querySelector("audio").play();
+                        
                         window.alert('Block finishedd!');
                         if(this.cycle == "work"){
                             this.cycle = "break";
