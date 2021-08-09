@@ -34,4 +34,4 @@ This is a minimalist application to use the pomodoro technique, which consists o
 ## Work page
 ![plot](./src/assets/pomodoro-2.png)
 
-## Short Break page
+## Short Rest page
